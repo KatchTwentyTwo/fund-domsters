@@ -50,7 +50,7 @@ nav li a {
   border-right: .1em solid;
 }
 
-.content {
+#content {
   border-width: .1em;
   border-style: solid;
   border-top-width: 0;
@@ -58,23 +58,23 @@ nav li a {
   line-height: 1.8em;
 }
 
-.about header {
+#about header {
   background-image: url(../img/lineup.gif);
 }
 
-.photos header {
+#photos header {
   background-image: url(../img/basshead.gif);
 }
 
-.live header {
+#live header {
   background-image: url(../img/bassist.gif);
 }
 
-.contact header {
+#contact header {
   background-image: url(../img/drummer.gif);
 }
 
-.content img {
+#content img {
   border-width: .1em;
   border-style: solid;
   outline-width: .1em;

@@ -1,5 +1,5 @@
 function moveElement( elementID, finalX, finalY, interval ) {
-  'use strict'
+  'use strict';
   var elem, xPos, yPos, dist, repeat;
   if ( !document.getElementById ) {
     return false;

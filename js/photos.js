@@ -34,18 +34,18 @@ function preparePlaceholder() {
   if ( !document.getElementById ) {
     return false;
   }
-  if ( !document.getElementById( "image-gallery" ) ) {
+  if ( !document.getElementById( 'image-gallery' ) ) {
     return false;
   }
-  placeholder = document.createElement( "img" );
-  placeholder.setAttribute( "id", "placeholder" );
-  placeholder.setAttribute( "src", "img/placeholder.gif" );
-  placeholder.setAttribute( "alt", "my image gallery" );
-  description = document.createElement( "p" );
-  description.setAttribute( "id", "description" );
-  desctext = document.createTextNode( "Choose an image" );
+  placeholder = document.createElement( 'img' );
+  placeholder.setAttribute( 'id', 'placeholder' );
+  placeholder.setAttribute( 'src', 'img/placeholder.gif' );
+  placeholder.setAttribute( 'alt', 'my image gallery' );
+  description = document.createElement( 'p' );
+  description.setAttribute( 'id', 'description' );
+  desctext = document.createTextNode( 'Choose an image' );
   description.appendChild( desctext );
-  gallery = document.getElementById( "image-gallery" );
+  gallery = document.getElementById( 'image-gallery' );
   insertAfter( description, gallery );
   insertAfter( placeholder, description );
 }
